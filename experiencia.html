@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Experiências | Portfolio</title>
+</head>
+<body>
+    
+    <div class="sidebar" id="sidebar">
+        <a href="index.html" class="logo">Menu</a>
+        <ul>
+            <li><a href="sobremim.html">Sobre Mim</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="certificados.html">Certificações</a></li>
+            <li><a href="experiencia.html">Experiência</a></li>
+            <li><a href="ferramentas.html">Ferramentas</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+        </ul>
+    </div>
+    
+    <div class="menu-btn" onclick="toggleMenu()">
+        &#9776;
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+    
+    <section id="Home">
+        <div class="container">
+            <img class="fundo" src="fundo.jpg">
+            <div class="texto-sobre-imagem">
+                <h2>Hi. I'm Ana.</h2>
+                <h2>A Developer.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="Sobre mim">
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Home | Portfolio</title>
+</head>
+<body>
+    
+    <div class="sidebar" id="sidebar">
+        <a href="index.html" class="logo">Menu</a>
+        <ul>
+            <li><a href="sobremim.html">Sobre Mim</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="certificados.html">Certificações</a></li>
+            <li><a href="experiencia.html">Experiência</a></li>
+            <li><a href="ferramentas.html">Ferramentas</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+        </ul>
+    </div>
+    
+    <div class="menu-btn" onclick="toggleMenu()">
+        &#9776;
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+    
+    <section id="Home">
+        <div class="container-fundo">
+            <div class="texto-sobre-imagem">
+                <h2>Hi. I'm Ana. <br> A Developer.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h1 class="title">SOBRE MIM</h1>
+            <p class="info">Meu nome é Ana Claudia Volkmann, tenho 18 anos 
+                    e nasci em Blumenau/SC. Minha jornada no mundo tecnológico
+                    começou quando eu era pequena e desde lá nunca abandonei
+                    essa paixão.</p>
+        </div>
+    </section>
+
+    <section id="meusproj">
+        <div class="container">
+            <h1 class="title">MEUS PROJETOS</h1>
+            <p class="info"> Durante a primeira etapa da faculdade pude desenvolver vários projetos relacionados á área de TI e robótica.</p>
+        </div>
+    </section> 
+            
+    <section id="certificacoes">
+        <div class="container">
+            <h1 class="title">CERTIFICAÇÕES</h1>
+            <p class="info"> Dê uma conferida nos meus certificados! Eles foram muito importantes pra mim no desenvolvimento do início da minha carreira.</p>
+        </div>
+    </section> 
+
+    <section id="ferramentas">
+        <div class="container">
+            <h1 class="title">FERRAMENTAS</h1>
+        </div>    
+    </section> 
+    
+          
+    <footer>
+        <p class="rodape-direitos">Copyright &copy; 2024 – Todos os Direitos Reservados.</p>
+    </footer>
+    
+
+</body>
+</html>
+    
+
