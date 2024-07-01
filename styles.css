@@ -122,9 +122,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 1rem;
     width: 40%;
     padding: 0 8%;
+    background-color: #9BBEC7;
+    color: #fff;
+    padding: 3%;
+    border-radius: 40px;
+}
+
+.container{
+    padding-left: 5%;
 }
 
 /* -------------------------------- rodape ---------------------------------------- */
