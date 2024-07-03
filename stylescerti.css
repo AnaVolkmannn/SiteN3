@@ -37,6 +37,7 @@ body{
 
 .sidebar.active {
     left: 0; /* Posição visível da sidebar */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar .logo {
@@ -87,14 +88,26 @@ h2 {
     font-weight: bold;
 }
 
-p {
+.bloco p {
     font-size: 2rem;
+    padding-bottom: 2%;
 }
 
-ul li a {
-    font-size: 1rem;
+li.certi{
+   font-size: 1.5rem;
 }
 
 .bloco {
-    padding: 10%;
+    padding: 3% 10%;
+}
+
+/* -------------------------------- rodape ---------------------------------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: small;
+    background-color: #cb4798;
 }

@@ -37,6 +37,7 @@ body{
 
 .sidebar.active {
     left: 0; /* Posição visível da sidebar */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar .logo {
