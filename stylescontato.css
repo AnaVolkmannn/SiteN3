@@ -1,12 +1,62 @@
-@charset "UTF-8"; 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+form {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
 
-.montserrat-corpo {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 20px;
-    font-style: normal;
-  }
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  width: 99%;
+  height: 40px;
+  color:#cb4798;
+  font: 200;
+  font-size: 0.7rem;
+}
+
+textarea {
+    height: 150px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+  background-color:#cb4798;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 0.7em;
+}
+
+.conteudo { 
+    color: white;
+    margin: 5% 35%;
+    background-color:#ecb3d6;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+body{
+    background-color:#ffddf8;
+    color:#ecb3d6;
+}
 
 * {
     padding: 0px;
@@ -18,9 +68,16 @@
     font-size: 1.5em;
 }
 
-body{
-    background-color:#ffddf8;
-    color:#ecb3d6;
+
+ /* -------------------------------- rodape ---------------------------------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: 0.4rem;
+    background-color: #cb4798;
 }
 
 /* ------------------- configurações do menu ------------------- */
@@ -82,35 +139,14 @@ body{
     font-size: 2rem;
 }
 
-h2 {
-    font-size: 2rem;
-    color: #cb4798;
-    font-weight: bold;
-}
-
-.bloco p {
-    font-size: 1.5rem;
-    padding-bottom: 2%;
-}
-
-li.certi{
-   font-size: 1rem;
-}
-
-.bloco {
-    padding: 3% 10%;
-}
-
-/* -------------------------------- rodape ---------------------------------------- */
-
-footer {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2%;
-    font-size: 0.4rem;
-    background-color: #cb4798;
-}
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 5% 0;
+} 
 
 .redeshead img {
     height: 40px;
@@ -119,35 +155,14 @@ footer {
     display: flex;
 }
 
-.info h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: #fff;
-    background-color: #9BBEC7;
-    width: 100%;
-    padding-top: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.redes img {
+    height: 40px;
+    width: 40px;
 }
 
-.btn-slide {
-    padding: 12px 24px;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #fff;
-    background-color:#cb4798;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: color 0.4s, background-color 0.4s;
-   
-}
-
-.botao{
+.redes {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 25%;
 }
