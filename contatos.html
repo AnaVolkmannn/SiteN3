@@ -29,9 +29,14 @@ textarea {
   border: 1px solid #ccc;
   width: 99%;
   height: 40px;
+  color:#cb4798;
+  font: 200;
+  font-size: 0.7rem;
 }
 
-
+textarea {
+    height: 150px;
+}
 .button{
     display: flex;
     justify-content: center;
@@ -51,10 +56,10 @@ button {
 
 .conteudo { 
     color: white;
-    margin: 5% 30%;
+    margin: 5% 35%;
     background-color:#ecb3d6;
     border-radius: 30px;
-    padding: 5%;
+    padding: 3%;
 }
 
 body{
@@ -149,28 +154,31 @@ footer {
     justify-content: center;
     font-size: 1em;
     font-weight: bolder;
-    padding-top: 5%;
+    padding: 5% 0;
 } 
+
+.redeshead img {
+    height: 40px;
+    width: 40px;
+    margin: 2% 40%;
+}
+
+.redes img {
+    height: 40px;
+    width: 40px;
+}
 
 .redes {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 25%;
 }
 
 </style>
 </head>
 <body>
 
-    <header>
-        <div class="redeshead">
-            <img src="github.png">
-            <img src="insta.png">
-            <img src="linkedin.png">
-            <img src="bit.png">
-        </div>
-    </header>
-    
     <div class="sidebar" id="sidebar">
         <a href="index.html" class="logo">Menu</a>
         <ul>
@@ -180,6 +188,20 @@ footer {
             <li><a href="conhecimento.html">Conhecimento</a></li>
             <li><a href="contatos.html">Contato</a></li>
         </ul>
+        <div class="redeshead">
+            <a href="https://github.com/AnaVolkmannn" target="_blank">
+                <img class="botao-imagem" src="github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/anavolkmann_/" target="_blank">
+                <img class="botao-imagem" src="insta.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/ana-claudia-volkmann-153582267/" target="_blank">
+                <img class="botao-imagem" src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://bitbucket.org/anaclaudiavolkmann/workspace/repositories/" target="_blank">
+                <img class="botao-imagem" src="bit.png" alt="Atlassian BitBucket">
+            </a>
+        </div>
     </div>
     
     <div class="menu-btn" onclick="toggleMenu()">
@@ -216,10 +238,18 @@ footer {
     </div>
 
     <div class="redes">
-        <img style="width:10%; height: 10%;"src="github.png">
-        <img style="width:10%; height: 10%;"src="insta.png">
-        <img style="width:10%; height: 10%;"src="linkedin.png">
-        <img style="width:10%; height: 10%;"src="bit.png">
+        <a href="https://github.com/AnaVolkmannn" target="_blank">
+            <img class="botao-imagem" src="github.png" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/anavolkmann_/" target="_blank">
+            <img class="botao-imagem" src="insta.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/ana-claudia-volkmann-153582267/" target="_blank">
+            <img class="botao-imagem" src="linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://bitbucket.org/anaclaudiavolkmann/workspace/repositories/" target="_blank">
+            <img class="botao-imagem" src="bit.png" alt="Atlassian BitBucket">
+        </a>
     </div>
 </div>
 

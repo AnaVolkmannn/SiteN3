@@ -111,3 +111,9 @@ footer {
     font-size: small;
     background-color: #cb4798;
 }
+
+.redeshead img {
+    height: 40px;
+    width: 40px;
+    margin: 2% 40%;
+}
