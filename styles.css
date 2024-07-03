@@ -172,8 +172,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5% 20%;
-    font-size: 1rem;
+    padding: 2% 20%;
+    font-size: 0.7rem;
 }
 
 .btn-slide {
@@ -196,3 +196,36 @@ footer {
     align-items: center;
     padding: 2%;
 }
+
+.info {
+    font-size: 70%;
+    text-align: center; 
+    list-style-type: none;
+}
+
+.info h2 {
+    color:#cb4798;
+    font-weight: bolder;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #9BBEC7;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.info ul {
+    font-size: 60%;
+    color: white;
+    background-color: #9BBEC7;
+    border-radius: 50px;
+    width: 40%;
+    margin: 2% 27%;
+    padding: 2%;
+    
+}
+
+
